@@ -15,7 +15,7 @@ const Admin = () => {
           Manage Products
         </button>
         <button
-          className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg shadow-lg transition"
+          className="bg-blue-600  text-white py-3 px-6 rounded-lg shadow-lg transition"
           onClick={() => navigate("/create/category")}
         >
           Manage Categories

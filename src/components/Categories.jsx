@@ -11,7 +11,6 @@ const Categories = () => {
     name: "",
     description: "",
   });
-
   useEffect(() => {
     request
       .get("/product-category/get")
